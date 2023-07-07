@@ -7,6 +7,8 @@ const renderer = new WebGLRenderer({
   canvas: document.querySelector('canvas'),
 });
 
+renderer.setClearColor('#001726');
+
 renderer.setSize(width, height);
 renderer.setPixelRatio(
   Math.min(window.devicePixelRatio, configs.maxPixelRatio)
